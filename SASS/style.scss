@@ -2,6 +2,7 @@
 @import "./PARTIALS/font";
 @import "./PARTIALS/colori";
 @import "./PARTIALS/bottoni";
+@import "./PARTIALS/mixinsGenerici";
 @import "./PARTIALS/reset";
 
 nav {
@@ -56,6 +57,8 @@ header {
         color: $text-color;
         padding: $size-2;
         margin-block: $size-1;
+        border-radius: 6px;
+        border: none;
       }
     }
 
@@ -73,14 +76,15 @@ main {
   .imageGrid {
     max-width: 90%;
     min-width: 90%;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: space-evenly;
 
     img {
       height: 100%;
       width: 23%;
-      object-fit: contain;
+      object-fit: cover;
+      @include floating;
     }
   }
 }

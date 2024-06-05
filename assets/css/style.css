@@ -78,6 +78,8 @@ header .heroContainer .heroTextButtons button {
   color: #f4f4f4;
   padding: 0.5rem;
   margin-block: 0.25rem;
+  border-radius: 6px;
+  border: none;
 }
 header .heroContainer img {
   height: 100%;
@@ -91,13 +93,16 @@ main {
 main .imageGrid {
   max-width: 90%;
   min-width: 90%;
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: space-evenly;
 }
 main .imageGrid img {
   height: 100%;
   width: 23%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border: 2px solid purple;
 }/*# sourceMappingURL=style.css.map */
