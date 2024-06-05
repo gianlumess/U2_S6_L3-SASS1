@@ -1,3 +1,15 @@
+.button-1 {
+  background-color: #0e6cff;
+}
+
+.button-2 {
+  background-color: #ff8700;
+}
+
+.button-3 {
+  background-color: #4caf50;
+}
+
 *,
 *::before,
 *::after {
@@ -57,6 +69,15 @@ header .heroContainer .heroTextButtons h1 {
   font-family: "Georgia", serif;
   font-size: 3rem;
   font-weight: 600;
+}
+header .heroContainer .heroTextButtons button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-basis: 1px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f4f4f4;
+  padding: 0.5rem;
+  margin-block: 0.25rem;
 }
 header .heroContainer img {
   height: 100%;

@@ -1,6 +1,7 @@
 @import "./PARTIALS/spaziature";
 @import "./PARTIALS/font";
 @import "./PARTIALS/colori";
+@import "./PARTIALS/bottoni";
 @import "./PARTIALS/reset";
 
 nav {
@@ -45,6 +46,16 @@ header {
 
       h1 {
         @include title-big;
+      }
+
+      button {
+        font-family: $sans-serif;
+        flex-basis: 1px;
+        font-size: $size-3;
+        font-weight: 600;
+        color: $text-color;
+        padding: $size-2;
+        margin-block: $size-1;
       }
     }
 

@@ -1,0 +1,7 @@
+@for $i from 1 through length($buttons-color) {
+  $elem: nth($buttons-color, $i);
+
+  .button-#{$i} {
+    background-color: $elem;
+  }
+}
