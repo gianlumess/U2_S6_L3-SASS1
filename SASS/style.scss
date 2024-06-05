@@ -8,15 +8,64 @@ nav {
 
   .navElements {
     display: flex;
+    justify-content: space-between;
     padding: $size-2;
+    padding-inline: $size-3;
 
     ul {
       display: flex;
-      column-gap: $size-2;
+      column-gap: $size-4;
 
       li {
         cursor: pointer;
       }
+    }
+  }
+}
+header {
+  display: flex;
+  justify-content: center;
+  .heroContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90%;
+    min-width: 90%;
+    height: 600px;
+    background-color: $hero-color;
+    margin-top: $size-5;
+    padding-block: $size-3;
+
+    .heroTextButtons {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 40%;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: $size-5;
+
+  .imageGrid {
+    max-width: 90%;
+    min-width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+      height: 100%;
+      width: 23%;
+      object-fit: contain;
     }
   }
 }

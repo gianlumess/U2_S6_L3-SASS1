@@ -17,13 +17,60 @@ nav {
 }
 nav .navElements {
   display: flex;
+  justify-content: space-between;
   padding: 0.5rem;
+  padding-inline: 1rem;
 }
 nav .navElements ul {
   display: flex;
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
 }
 nav .navElements ul li {
   cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header .heroContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 90%;
+  min-width: 90%;
+  height: 600px;
+  background-color: #640fc5;
+  margin-top: 3rem;
+  padding-block: 1rem;
+}
+header .heroContainer .heroTextButtons {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+}
+header .heroContainer img {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+main .imageGrid {
+  max-width: 90%;
+  min-width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .imageGrid img {
+  height: 100%;
+  width: 23%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
