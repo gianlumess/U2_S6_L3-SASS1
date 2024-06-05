@@ -95,7 +95,7 @@ main .imageGrid {
   min-width: 90%;
   height: 200px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 main .imageGrid img {
   height: 100%;
