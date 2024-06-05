@@ -80,6 +80,7 @@ header .heroContainer .heroTextButtons button {
   margin-block: 0.25rem;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
 }
 header .heroContainer img {
   height: 100%;
