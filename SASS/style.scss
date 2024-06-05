@@ -1,0 +1,22 @@
+@import "./PARTIALS/spaziature";
+@import "./PARTIALS/font";
+@import "./PARTIALS/colori";
+@import "./PARTIALS/reset";
+
+nav {
+  background-color: $hero-color;
+
+  .navElements {
+    display: flex;
+    padding: $size-2;
+
+    ul {
+      display: flex;
+      column-gap: $size-2;
+
+      li {
+        cursor: pointer;
+      }
+    }
+  }
+}
