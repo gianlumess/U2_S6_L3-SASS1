@@ -1,2 +1,9 @@
 $sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $serif: "Georgia", serif;
+
+@mixin title-big {
+  color: $text-color;
+  font-family: $serif;
+  font-size: $size-5;
+  font-weight: 600;
+}

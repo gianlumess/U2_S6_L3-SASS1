@@ -42,6 +42,10 @@ header {
       justify-content: center;
       text-align: center;
       width: 40%;
+
+      h1 {
+        @include title-big;
+      }
     }
 
     img {

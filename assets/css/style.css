@@ -52,6 +52,12 @@ header .heroContainer .heroTextButtons {
   text-align: center;
   width: 40%;
 }
+header .heroContainer .heroTextButtons h1 {
+  color: #f4f4f4;
+  font-family: "Georgia", serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
 header .heroContainer img {
   height: 100%;
 }
